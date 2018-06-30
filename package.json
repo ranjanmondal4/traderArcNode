@@ -1,0 +1,23 @@
+{
+  "name": "trader",
+  "version": "1.0.0",
+  "description": "trader pro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV='dev' nodemon app.js",
+    "stag": "NODE_ENV='stag' node app.js",
+    "prod": "NODE_ENV='prod' node app.js"
+  },
+  "author": "ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.5"
+  }
+}
